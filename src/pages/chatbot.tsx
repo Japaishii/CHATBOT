@@ -25,7 +25,7 @@ const ChatPage: React.FC = () => {
     setInput('');
 
     try {
-      const response = await axios.post('https://13f5-200-131-57-199.ngrok-free.app/gpt', {
+      const response = await axios.post(' https://cda2-200-131-57-219.ngrok-free.app/gpt', {
         to: "felipe",
         from: "chatgpt",
         message: input,
